@@ -1,0 +1,5 @@
+﻿Bug ID,Module,Title,Steps,Expected Result,Actual Result,Severity,Status
+BUG001,Search,Search results do not match term,Search for a specific product,Only matching products should appear,Record observed result after reproduction,Medium,Do not log unless reproduced
+BUG002,Cart,Cart total fails to update,Add item and change quantity,Total reflects updated quantity,Record observed result after reproduction,High if checkout total is wrong,Do not log unless reproduced
+BUG003,Checkout,Invalid email is accepted,Enter malformed email and submit,Validation should block submission,Record observed result after reproduction,Medium/High depending impact,Do not log unless reproduced
+BUG004,Login,No useful error for invalid credentials,Enter incorrect password,Clear error should be shown,Record observed result after reproduction,Medium,Do not log unless reproduced
